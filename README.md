@@ -1,0 +1,2 @@
+# clyde
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1126f4be7dd640cf8e958747ee2aa937)](https://app.codacy.com/gh/MeasureAuthoringTool/clyde?utm_source=github.com&utm_medium=referral&utm_content=MeasureAuthoringTool/clyde&utm_campaign=Badge_Grade)
