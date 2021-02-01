@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Build
 
 on:
   # Triggers the workflow on push or pull request events on these branches

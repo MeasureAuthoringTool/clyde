@@ -1,5 +1,11 @@
 ## CLYDE
 
+![Build](https://github.com/MeasureAuthoringTool/clyde/workflows/Build/badge.svg)
+
+[![codecov](https://codecov.io/gh/MeasureAuthoringTool/clyde/branch/develop/graph/badge.svg?token=Xnw6lQl58n)](https://codecov.io/gh/MeasureAuthoringTool/clyde)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1126f4be7dd640cf8e958747ee2aa937)](https://app.codacy.com/gh/MeasureAuthoringTool/clyde?utm_source=github.com&utm_medium=referral&utm_content=MeasureAuthoringTool/clyde&utm_campaign=Badge_Grade)
+
 ### Available Scripts
 
 In the project directory, you can run:
