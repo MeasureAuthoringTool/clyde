@@ -7,9 +7,7 @@
 
   - [ ] This PR is into the correct branch
 
-  - [ ] JIRA ticket links to this PR
-
-  - [ ] PR link to JIRA ticket
+  - [ ] JIRA ticket for this PR:
 
   - [ ] Tests are included and test edge cases
 
