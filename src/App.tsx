@@ -23,7 +23,7 @@ const App = () => {
                 <input type='text' placeholder='Full name'/>
                 <input type="password" placeholder='Password'/>
                 <button onClick={(e) => {
-                    clickMeHandler(e)
+                    clickMeHandler(e);
                 }}>Click Me!
                 </button>
             </form>
