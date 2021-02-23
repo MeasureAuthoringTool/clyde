@@ -2,7 +2,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 const StyledForm = styled.main.attrs({
-    className: 'flex flex-col h-screen justify-center items-center bg-gray-100'
+    className: "flex flex-col h-screen justify-center items-center bg-gray-100"
 })
     `
       & {
@@ -22,12 +22,12 @@ const StyledForm = styled.main.attrs({
           ${tw`bg-green-100  rounded uppercase p-3 hover:animate-bounce shadow-2xl`}
         }
       }
-    `
+    `;
 
 
 const Circle = styled.h2.attrs({
-    className: 'rounded-full mt-8 h-24 w-24 flex items-center justify-center text-grey-700 capitalize ring-8  bg-opacity-90 ' +
-        'bg-yellow-300'
-})`  `
+    className: "rounded-full mt-8 h-24 w-24 flex items-center justify-center text-grey-700 capitalize ring-8  bg-opacity-90 " +
+        "bg-yellow-300"
+})` `;
 
 export {Circle, StyledForm};
