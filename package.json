@@ -10,15 +10,21 @@
     "@types/node": "^14.14.28",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "typescript": "^4.1.5",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
+    "start": "npm run watch:css & react-scripts start",
+    "build": "npm run build:css react-scripts build",
     "test": "react-scripts test",
     "test:ci": "npm test -- --coverage --watchAll=false",
     "lint": "npx eslint . --ext .ts,.tsx",
@@ -41,5 +47,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-macros": "^3.0.1",
+    "postcss-cli": "^7.1.0",
+    "tailwind.macro": "^0.5.10",
+    "twin.macro": "^2.2.3"
   }
 }
