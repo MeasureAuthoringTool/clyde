@@ -28,6 +28,6 @@ const StyledForm = styled.main.attrs({
 const Circle = styled.h2.attrs({
     className: "rounded-full mt-8 h-24 w-24 flex items-center justify-center text-grey-700 capitalize ring-8  bg-opacity-90 " +
         "bg-yellow-300"
-})` `;
+})``;
 
 export {Circle, StyledForm};
