@@ -1,0 +1,39 @@
+.cql-editor-line {
+    position: relative;
+}
+
+.cql-editor-line::before {
+    content: attr(data-line-number);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.cql-editor-line-text {
+    margin-left: 2em;
+}
+
+
+/*div.DraftEditor-root {*/
+/*    !*display: flex; !* additional *!*!*/
+/*    !*position: static;  !* additional *!*!*/
+/*    border: 1px solid #000;*/
+/*    background-color: beige;*/
+/*    height: 500px;*/
+/*    width: 800px;*/
+/*    overflow-y: scroll;*/
+/*}*/
+/*div.DraftEditor-editorContainer,*/
+/*div.public-DraftEditor-content {*/
+/*    height: 100%;*/
+/*}*/
+
+.cql-editor-container-root {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
