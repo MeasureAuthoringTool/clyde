@@ -539,6 +539,8 @@ video {
   height: auto;
 }
 
+@import "fonts/all-fonts.css";
+
 .container {
   width: 100%;
 }
@@ -11212,6 +11214,10 @@ video {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-hack {
+  font-family: Hack, monospace;
 }
 
 .font-thin {
@@ -39811,6 +39817,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-hack {
+    font-family: Hack, monospace;
+  }
+
   .sm\:font-thin {
     font-weight: 100;
   }
@@ -68363,6 +68373,10 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-hack {
+    font-family: Hack, monospace;
   }
 
   .md\:font-thin {
@@ -96919,6 +96933,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-hack {
+    font-family: Hack, monospace;
+  }
+
   .lg\:font-thin {
     font-weight: 100;
   }
@@ -125473,6 +125491,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-hack {
+    font-family: Hack, monospace;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -154025,6 +154047,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-hack {
+    font-family: Hack, monospace;
   }
 
   .\32xl\:font-thin {
