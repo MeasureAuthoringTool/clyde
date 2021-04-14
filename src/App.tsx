@@ -4,6 +4,10 @@ import tw from "twin.macro";
 import GlobalStyles from "./styles/GlobalStyles";
 import CqlEditor from "./cql-editor/CqlEditor";
 
+const Title = styled.h1`
+  ${tw`col-span-5 text-4xl`}
+`;
+
 const MainDiv = styled.div`
   ${tw`bg-gray-400 col-span-3 h-96`}
 `;
@@ -22,13 +26,14 @@ const App = () => {
     <>
       <GlobalStyles />
       <AppDiv>
+        <Title>MADiE</Title>
         <nav>
           <ul>
             <NavLink>
-              <a href="#">Some navigation thing here</a>
+              <button>Some navigation thing here</button>
             </NavLink>
             <NavLink>
-              <a href="#">Some other navigation</a>
+              <button>Some other navigation</button>
             </NavLink>
           </ul>
         </nav>

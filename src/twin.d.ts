@@ -15,6 +15,7 @@ declare module "react" {
   }
 
   // The inline svg css prop
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   interface SVGProps<T> extends SVGProps<SVGSVGElement> {
     css?: CSSProp
   }
