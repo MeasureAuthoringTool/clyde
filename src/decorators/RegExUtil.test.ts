@@ -189,7 +189,7 @@ test("NumericRegEx find a match with embedded 123", () => {
     let wasCallbackCalled = false;
 
     const callBack: DecoCallBackType = (start: number, end: number) => {
-        expect(11).toEqual(start);
+        expect(10).toEqual(start);
         expect(14).toEqual(end);
         wasCallbackCalled = true;
     };
