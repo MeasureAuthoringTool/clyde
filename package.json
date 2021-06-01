@@ -57,7 +57,7 @@
     "cql-antlr-parser": "*",
     "postcss-cli": "^8.3.1",
     "tailwind.macro": "^0.5.10",
-    "twin.macro": "^2.4.1"
+    "twin.macro": "^2.4.2"
   },
   "babelMacros": {
     "twin": {
