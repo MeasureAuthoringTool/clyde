@@ -52,12 +52,12 @@
   },
   "devDependencies": {
     "@types/draft-js": "^0.11.3",
-    "@types/styled-components": "^5.1.9",
+    "@types/styled-components": "^5.1.10",
     "babel-plugin-macros": "^3.1.0",
-    "cql-antlr-parser": "^0.0.1-alpha",
+    "cql-antlr-parser": "^0.0.1",
     "postcss-cli": "^8.3.1",
     "tailwind.macro": "^0.5.10",
-    "twin.macro": "^2.4.2"
+    "twin.macro": "^2.5.0"
   },
   "babelMacros": {
     "twin": {
