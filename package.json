@@ -55,7 +55,7 @@
     "@types/styled-components": "^5.1.9",
     "babel-plugin-macros": "^3.1.0",
     "cql-antlr-parser": "^0.0.1-alpha",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^9.0.1",
     "tailwind.macro": "^0.5.10",
     "twin.macro": "^2.4.2"
   },
